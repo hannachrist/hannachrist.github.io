@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  background: #d3e4cc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav.topmenu {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+nav.topmenu > a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 16px;
+}
+
+nav.topmenu > a:hover {
+  color: #b14a38;
+  text-decoration: underline;
+}
+
+nav.topmenu > a:active {
+  color: #b14a38;
+}
+
+.leftcolumn {
+  float: left;
+  width: 25%;
+  padding: 0px 20px 0px 0px;
+}
+
+.rightcolumn {
+  float: left;
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  background-color: #b14a38;
+  color: #ffffff;
+  padding: 5px;
+}
+
+#cinnamon {
+  float: left;
+  margin-right: 10px;
+}
+
+#espelette {
+  float: right;
+  margin-left: 10px;
+}
+
+#cumin {
+  float: left;
+  margin-right: 10px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+  margin: 40px 0px 0px 0px;
+}
+
+.footer > a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 14px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
